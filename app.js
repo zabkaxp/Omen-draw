@@ -23,7 +23,7 @@ class App extends React.Component {
   addOmen = e => {
     e.preventDefault();
     data.push(this.state.inputVal);
-    alert(`twoje wrozby to ${data}`);
+    alert(`The possible omens: ${data}`);
   };
 
   render() {
